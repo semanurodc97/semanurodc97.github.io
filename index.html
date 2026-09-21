@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sema'nın Seyahat Günlüğü</title>
+    <style>
+        /* Sitenin Genel Estetik Ayarları */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #262626;
+        }
+
+        /* Üst Menü / Başlık Alanı */
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #dbdbdb;
+            text-align: center;
+            padding: 30px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+
+        /* Blog İçerik Alanı */
+        .container {
+            max-width: 935px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Fotoğraf ve Yazı Kartı (Instagram Tarzı Grid) */
+        .blog-card {
+            background-color: #ffffff;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            margin-bottom: 45px;
+            overflow: hidden;
+        }
+
+        .blog-image {
+            width: 100%;
+            max-height: 600px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .blog-content {
+            padding: 20px;
+        }
+
+        .blog-meta {
+            font-size: 12px;
+            color: #8e8e8e;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .blog-title {
+            font-size: 20px;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+
+        .blog-text {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #4f4f4f;
+        }
+
+        /* Alt Bilgi */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sitenin Başlığı -->
+    <header>
+        <h1>SEMA'S TRAVELS</h1>
+        <p>Gezilerim, Fotoğraflarım ve Hikayelerim</p>
+    </header>
+
+    <!-- Blog Gönderileri -->
+    <div class="container">
+
+        <!-- 1. Gezi Kartı (Örnek) -->
+        <div class="blog-card">
+            <img class="blog-image" src="https://unsplash.com" alt="Kapadokya">
+            <div class="blog-content">
+                <div class="blog-meta">15 Mayıs 2026 • Kapadokya</div>
+                <h2 class="blog-title">Masalsı Bir Gün: Kapadokya Balonları</h2>
+                <p class="blog-text">Sabahın ilk ışıklarıyla gökyüzüne yükselen yüzlerce balonu izlemek kelimenin tam anlamıyla büyüleyiciydi. Instagram blogum için harika kareler yakaladım. Vadilerin mistik havası ve gün doğumu renkleri unutulmaz bir anı olarak kaldı.</p>
+            </div>
+        </div>
+
+        <!-- 2. Gezi Kartı (Örnek) -->
+        <div class="blog-card">
+            <img class="blog-image" src="https://unsplash.com" alt="Efes Antik Kenti">
+            <div class="blog-content">
+                <div class="blog-meta">20 Temmuz 2026 • İzmir</div>
+                <h2 class="blog-title">Tarihin İzinde: Efes Antik Kenti</h2>
+                <p class="blog-text">Celsus Kütüphanesi’nin büyüleyici mimarisi karşısında büyülenmemek elde değil. Binlerce yıllık taş sokaklarda yürürken geçmişe kısa bir yolculuk yapmış gibi hissettim. Fotoğraf çekmeyi seven herkesin ömründe bir kez görmesi gereken bir yer.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Sema'nın Seyahat Günlüğü. Tüm Hakları Saklıdır.
+    </footer>
+
+</body>
+</html>
